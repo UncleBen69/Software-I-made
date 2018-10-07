@@ -1,0 +1,80 @@
+<head>
+    <title>VodList</title>
+    <link rel="icon" href="icon.png">
+    <script src="scripts/jquery.js"></script>
+    <link type="text/css" rel="stylesheet" href="scripts/css/materialize.css"  media="screen,projection"/> 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="vodlist.js"></script>
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <!-- Edited CSS-->
+     <style>
+        body {
+            background-color: rgb(48, 48, 48);
+        }
+        .darker { 
+            background-color: rgb(33, 33, 33)!important; 
+            color: rgb(33, 33, 33)!important; 
+        }
+        a { color: rgb(222, 138, 255); }
+        .cxpurple{ 
+            background-color: rgb(103, 58, 183)!important;
+            color: rgb(103, 58, 183)!important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="cxpurple">
+        <div class="nav-wrapper col s12">
+            <a href="index.html" class="brand-logo center hide-on-small-only"><img src="icon.png" class="offset-m2" alt="icon" width="30" height="30"> vods.cx</a>
+            <a href="javascript:;" data-target="slide-out" class="sidenav-trigger" style="display: inline"> <i class="material-icons large"> menu </i> </a>
+            <div class="col s12 breadcrumbShit">
+                <a href="index.html" class="breadcrumb">Home</a>
+            </div>
+        </div>
+    </nav>  
+    <!-- Side Nav -->
+    <ul id="slide-out" class="sidenav">
+        <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="othertools.html"><i class="material-icons">filter_none</i>Other Tools</a></li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                <a class="collapsible-header">Streamers<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                    <ul class="sidebarshit">
+                        <!-- Appened in JavaScript-->
+                    </ul>
+                </div>
+                </li>
+            </ul>
+        </li>
+
+    </ul>
+
+    <!-- Floating Button Shit -->
+    <div class="fixed-action-btn">
+        <a href="index.html" class="btn-floating btn-large cxpurple backbtn">
+            <i class="large material-icons">arrow_back</i>
+            <!-- navigate_before replay -->
+        </a>
+    </div>
+
+
+    <div class="container">
+        <div class="row shit">
+            
+        </div>
+        
+        <ul class="pagination center-align pageshit">
+                
+        </ul>
+    </div>
+    <!-- Adds some white space to the bottom of the page on mobile -->
+    <div class="section show-on-small"></div>
+    <div class="section show-on-small"></div>
+    <div class="section show-on-small"></div>
+    <script type="text/javascript" src="scripts/js/materialize.js"></script>
+</body>
