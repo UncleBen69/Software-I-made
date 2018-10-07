@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.uncleben.cxnotifier.activity.MainActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:id="@+id/getBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:layout_marginTop="10dp"
+
+
+                android:text="Update" />
+        <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/getBtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Burger Planet:"
+                android:textOff="OFF"
+                android:textOn="ON"/>
+        <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch1"
+                android:layout_alignRight="@+id/switch1"
+                android:text="Sam Pepper:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch2"
+                android:layout_alignRight="@+id/switch2"
+                android:text="Ice Poseidon:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch3"
+                android:layout_alignRight="@+id/switch3"
+                android:text="Evan:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch4"
+                android:layout_alignRight="@+id/switch4"
+                android:text="Sweet Erin:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch5"
+                android:layout_alignRight="@+id/switch5"
+                android:text="Hyphonix:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch6"
+                android:layout_alignRight="@+id/switch6"
+                android:text="Broke Malone:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch7"
+                android:layout_alignRight="@+id/switch7"
+                android:text="3BZ:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch8"
+                android:layout_alignRight="@+id/switch8"
+                android:text="Aria:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch9"
+                android:layout_alignRight="@+id/switch9"
+                android:text="Yuber:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch10"
+                android:layout_alignRight="@+id/switch10"
+                android:text="Bjorn:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch11"
+                android:layout_alignRight="@+id/switch11"
+                android:text="Gary:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch12"
+                android:layout_alignRight="@+id/switch12"
+                android:text="Demon Andy:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch13"
+                android:layout_alignRight="@+id/switch13"
+                android:text="Chad:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch14"
+                android:layout_alignRight="@+id/switch14"
+                android:text="Cx News:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch15"
+                android:layout_alignRight="@+id/switch15"
+                android:text="Mexican Andy:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch16"
+                android:layout_alignRight="@+id/switch16"
+                android:text="KPop Andy:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch17"
+                android:layout_alignRight="@+id/switch17"
+                android:text="Hypeman Vince:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch18"
+                android:layout_alignRight="@+id/switch18"
+                android:text="No Jumper:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch19"
+                android:layout_alignRight="@+id/switch19"
+                android:text="Ness:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch20"
+                android:layout_alignRight="@+id/switch20"
+                android:text="Tracksuit Andy:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch21"
+                android:layout_alignRight="@+id/switch21"
+                android:text="d3adscene:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch22"
+                android:layout_alignRight="@+id/switch22"
+                android:text="Blade:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch23"
+                android:layout_alignRight="@+id/switch23"
+                android:text="Asian Andy:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+        <Switch
+                android:id="@+id/switch25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:layout_below="@+id/switch24"
+                android:layout_alignRight="@+id/switch24"
+                android:text="Special Events:"
+                android:textOff="OFF"
+                android:textOn ="ON"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

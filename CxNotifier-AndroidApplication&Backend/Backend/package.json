@@ -1,0 +1,13 @@
+{
+  "name": "cxnotifierserver",
+  "version": "1.0.0",
+  "description": "The server that uses firebase to send notifications to mobile",
+  "main": "main.js",
+  "author": "Vadim",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^4.0.6",
+    "firebase-admin": "^6.0.0",
+    "node-localstorage": "^1.3.1"
+  }
+}
