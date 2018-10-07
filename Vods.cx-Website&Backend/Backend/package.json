@@ -1,0 +1,20 @@
+{
+  "name": "vodserver",
+  "version": "1.0.0",
+  "description": "The server that provides the vod links and data for the website",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node main.js"
+  },
+  "author": "UncleBen",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "geoip-lite": "^1.3.1",
+    "mysql": "^2.16.0",
+    "node-localstorage": "^1.3.1",
+    "public-ip": "^2.4.0",
+    "time-stamp": "^2.0.1"
+  }
+}
